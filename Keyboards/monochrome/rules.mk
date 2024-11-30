@@ -1,0 +1,3 @@
+SERIAL_DRIVER = vendor
+HALF_DUPLEX = yes
+SOFT_SERIAL_ENABLE = no
