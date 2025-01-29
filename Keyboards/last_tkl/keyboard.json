@@ -4,6 +4,7 @@
     "maintainer": "JuanjoBailen",
     "bootloader": "rp2040",
     "diode_direction": "COL2ROW",
+    
     "features": {
         "bootmagic": true,
         "command": false,
@@ -13,14 +14,16 @@
         "nkro": true
     },
     "matrix_pins": {
-        "cols": ["GP10", "GP0", "GP1", "GP2", "GP3", "GP4", "GP5", "GP6", "GP7", "GP11", "GP29", "GP28", "GP27", "GP26", "GP22", "GP20", "GP23", "GP21"],
-        "rows": ["GP8", "GP12", "GP13", "GP14", "GP15", "GP16"]
+        "cols": ["GP10", "GP0", "GP1", "GP2", "GP3", "GP4", "GP5", "GP6", "GP7","GP8", "GP11", "GP29", "GP28", "GP27", "GP26", "GP22", "GP20", "GP23"],
+        "rows": ["GP9", "GP12", "GP13", "GP14", "GP15", "GP16"]
     },
+  
+
     "processor": "RP2040",
     "url": "",
     "usb": {
         "device_version": "1.0.0",
-        "pid": "0x0000",
+        "pid": "0x0021",
         "vid": "0xFEED"
     },
     "layouts": {
@@ -106,7 +109,7 @@
                 {"matrix": [4, 10], "x": 10, "y": 4},
                 {"matrix": [4, 11], "x": 11, "y": 4},
                 {"matrix": [4, 13], "x": 13, "y": 4},
-                {"matrix": [4, 15], "x": 15, "y": 4},
+                {"matrix": [4, 16], "x": 15, "y": 4},
 
                 {"matrix": [5, 0], "x": 0, "y": 5},
                 {"matrix": [5, 1], "x": 1, "y": 5},
